@@ -4,6 +4,10 @@ import img5 from "../assets/images/ai2.png";
 import img2 from "../assets/images/dom.png";
 import img3 from "../assets/images/tols.png";
 import img4 from "../assets/images/solar.png";
+import img6 from "../assets/images/pc.png";
+import img7 from "../assets/images/law.png";
+import img8 from "../assets/images/bistro.png";
+import img9 from "../assets/images/shop.png";
 
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
@@ -48,9 +52,31 @@ function Projects() {
     },
     {
       id: 6,
-      title: "Business Startup",
-      description: "Design & Development",
-      img: img1,
+      title: "Fun PC",
+      description: "Design & Development & Fun",
+      link: "https://abdulrahmanm0.github.io/MY__PC/",
+      img: img6,
+    },
+    {
+      id: 7,
+      title: "Law Firm",
+      description: "Design & Development & Responsive & React",
+      link: "https://law-firm-rust-xi.vercel.app/",
+      img: img7,
+    },
+    {
+      id: 8,
+      title: "Bistro Bliss",
+      description: " Food & Design & Development & Responsive & React",
+      link: "https://bistro-bliss-wine.vercel.app/",
+      img: img8,
+    },
+    {
+      id: 9,
+      title: "Shop",
+      description: " Shop & Design & Development & Responsive & React",
+      link: "https://shopwise-vert.vercel.app/",
+      img: img9,
     },
   ];
 
