@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import img1 from "../assets/images/ai.png";
+import img5 from "../assets/images/ai2.png";
 import img2 from "../assets/images/dom.png";
 import img3 from "../assets/images/tols.png";
 import img4 from "../assets/images/solar.png";
@@ -40,9 +41,10 @@ function Projects() {
     },
     {
       id: 5,
-      title: "Business Startup",
+      title: "Business AI Chat",
       description: "Design & Development",
-      img: img3,
+      link: "https://sbc-v2.vercel.app/login",
+      img: img5,
     },
     {
       id: 6,
