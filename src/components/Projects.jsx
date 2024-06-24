@@ -8,6 +8,7 @@ import img6 from "../assets/images/pc.png";
 import img7 from "../assets/images/law.png";
 import img8 from "../assets/images/bistro.png";
 import img9 from "../assets/images/shop.png";
+import img10 from "../assets/images/domapp.png";
 
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
@@ -77,6 +78,13 @@ function Projects() {
       description: " Shop & Design & Development & Responsive & React",
       link: "https://shopwise-vert.vercel.app/",
       img: img9,
+    },
+    {
+      id: 10,
+      title: "Electro",
+      description: " Design & Development & Responsive & React",
+      link: "https://dom-hsro.onrender.com/",
+      img: img10,
     },
   ];
 
