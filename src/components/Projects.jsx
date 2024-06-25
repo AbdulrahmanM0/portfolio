@@ -17,6 +17,20 @@ function Projects() {
 
   const projects = [
     {
+      id: 10,
+      title: "Electro",
+      description: " Design & Development & Responsive & React",
+      link: "https://dom-hsro.onrender.com/",
+      img: img10,
+    },
+    {
+      id: 8,
+      title: "Bistro Bliss",
+      description: " Food & Design & Development & Responsive & React",
+      link: "https://bistro-bliss-wine.vercel.app/",
+      img: img8,
+    },
+    {
       id: 1,
       title: "AI Chat",
       description: "AI chat for engineers",
@@ -66,26 +80,13 @@ function Projects() {
       img: img7,
     },
     {
-      id: 8,
-      title: "Bistro Bliss",
-      description: " Food & Design & Development & Responsive & React",
-      link: "https://bistro-bliss-wine.vercel.app/",
-      img: img8,
-    },
-    {
       id: 9,
       title: "Shop",
       description: " Shop & Design & Development & Responsive & React",
       link: "https://shopwise-vert.vercel.app/",
       img: img9,
     },
-    {
-      id: 10,
-      title: "Electro",
-      description: " Design & Development & Responsive & React",
-      link: "https://dom-hsro.onrender.com/",
-      img: img10,
-    },
+
   ];
 
   return (
